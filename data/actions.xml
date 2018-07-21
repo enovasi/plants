@@ -31,6 +31,9 @@
               sequence="3" action="action_nursery_order"/>
 
     <menuitem name="Otro" id="nursery_plant_menu3" parent="nursery_root_menu"
-              sequence="4" action="action_nursery_plant"/>
+              sequence="4"/>
+
+    <menuitem name="IrPlantas" id="nursery_plant_menu4" parent="nursery_plant_menu3"
+              sequence="1" action="action_nursery_plant"/>
 
 </odoo>
