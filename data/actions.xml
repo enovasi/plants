@@ -24,6 +24,9 @@
     <menuitem name="Plants" id="nursery_plant_menu" parent="nursery_root_menu"
               sequence="1" action="action_nursery_plant"/>
 
+    <menuitem name="Plants" id="nursery_plant_menu" parent="nursery_customer_menu"
+              sequence="1" action="action_nursery_plant"/>
+
     <menuitem name="Customers" id="nursery_customer_menu" parent="nursery_root_menu"
               sequence="2" action="action_nursery_customer"/>
 
